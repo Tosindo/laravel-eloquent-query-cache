@@ -13,6 +13,7 @@
         }
     ],
     "require": {
+        "jenssegers/mongodb": "4.0.0-alpha.1",
         "illuminate/database": "^6.2|^7.0",
         "illuminate/support": "^6.2|^7.0"
     },
