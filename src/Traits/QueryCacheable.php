@@ -53,7 +53,6 @@ trait QueryCacheable
 
         $builder = new Builder(
             $connection,
-            $connection->getQueryGrammar(),
             $connection->getPostProcessor()
         );
 
